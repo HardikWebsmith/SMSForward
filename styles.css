@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.message-list {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.message {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+
+.selected{
+background-color: #b9d6ef;
+
+}
+.message-head {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.message-cont{
+    color: #979393;
+}
+
+.message-cont p{
+    color: #979393;
+    margin: 10px 0px 0px 0px;
+}
+
+.message-head>h4{
+    margin: 0px;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.message-header {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.message-content p {
+    margin: 10px 0;
+   
+}
+
+.message-content{
+    position: absolute;
+    bottom: 5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 10rem;
+    width: 30%;
+    background: darkgray;
+}
+
+.footer {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer input {
+   
+    border-radius: 5px;
+    flex: 1;
+    padding: 15px;
+    margin: 10px 10px;
+}
+
+.footer button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
